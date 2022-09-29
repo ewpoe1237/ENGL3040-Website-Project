@@ -132,4 +132,13 @@
     .product-text {
         margin-bottom: 24px;
     }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .product-description {
+        height: 100px;
+        width: 90%;
+    }
+    
 }
