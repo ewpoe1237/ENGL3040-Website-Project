@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/website-project-jhofset",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
