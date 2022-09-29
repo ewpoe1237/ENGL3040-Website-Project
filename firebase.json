@@ -9,6 +9,15 @@
     "rewrites": [ {
       "source": "**",
       "destination": "/index.html"
+    }, {
+      "source": "/about/**",
+      "destination": "/about-page.component.html"
+    }, {
+      "source": "/contact/**",
+      "destination": "/contact-page.component.html"
+    }, {
+      "source": "/products/**",
+      "destination": "/products.component.html"
     }]
   }
 }
