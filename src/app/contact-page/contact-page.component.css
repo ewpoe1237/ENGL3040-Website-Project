@@ -43,3 +43,10 @@
     background-color: #6ccaf9;
     border: none;
 }
+
+@media only screen and (max-width: 768px) {
+    .contact-info {
+        height: auto;
+    }
+    
+}
