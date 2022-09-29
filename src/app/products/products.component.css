@@ -142,3 +142,26 @@
     }
     
 }
+
+@media only screen and (max-width: 600px) {
+    .items {
+        width: 92%;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .card {
+        width: 80%;
+        height: auto;
+        transition: 0.5s ease;
+        box-shadow: none;
+    }
+
+    .card:hover {
+        transition: 0.5s ease;
+        box-shadow: 6px 6px 3px rgba(0, 0, 0, 0.5);
+        width: 82%;
+        height: auto;
+    }
+    
+}
